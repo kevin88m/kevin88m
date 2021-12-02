@@ -1,0 +1,62 @@
+body{
+    background-color:#75e7a1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img{width:45% ;
+height:35%;
+
+}
+
+ h4{color: blanchedalmond;
+        text-decoration:overline;}
+
+
+h3{border:solid;
+padding:5px 50px 5px;
+color:blanchedalmond}
+
+.l{list-style-type:none;
+    width:30%;
+
+
+
+
+}
+
+.contenu{
+    position:relative;
+    width:100%;
+    min-width:1000px;
+    min-height:1000px;
+    margin: 40px;
+    background-color: rgb(240, 234, 226);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 10px 35px 40px  #c0e0ea ;
+}
+
+.cgauche{ 
+
+    position:relative;
+    background-color: #041a25;
+    padding:40px;
+
+}
+
+.procontact{position:relative;
+display:flex;
+flex-direction:column;
+align-items: center;}
+
+.cdroit{ 
+
+    position:relative;
+    background-color: #868a8c;
+    padding:40px;
+
+}
